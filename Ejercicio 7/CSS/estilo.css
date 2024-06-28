@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+@media (min-width:1170px) and (max-width:2000px){
+    h1{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .container{
+   display: none ;
+}
+body{
+    background-color: rgb(89, 98, 99);
+}
+
+table{
+    border: 3px solid black;
+    width: 80%;
+    border-spacing: 0;
+}
+th{
+    background-color: rgb(57, 109, 133);
+    color: white;
+}
+td{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid rgb(57, 109, 133);
+}
+tr:nth-child(odd){/*even*/
+    background-color: cadetblue;
+}
+.descripcion{
+    width: 40%;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+}
+
+
+@media (min-width:300px) and (max-width:1169px){
+    h1{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+     .contenedor{
+        display: none ;
+     
+    }
+    body{
+        background-color :rgb(136, 187, 170);
+    }
+    .letra{
+        margin-top: 10px;
+        margin-left: 20%;
+        margin-right: 20%;
+        background-color: rgb(129, 121, 98);
+        color: white;
+    }
+    .encabezado{
+        text-align: center;
+    }
+}
